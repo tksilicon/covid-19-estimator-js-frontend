@@ -75,7 +75,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <section className="App">
         <header className="App-header">
 
           <form onSubmit={this.handleSubmit} >
@@ -179,7 +179,7 @@ class App extends React.Component {
           </label>
 
         </header>
-      </div>
+      </section>
 
     )
   }
