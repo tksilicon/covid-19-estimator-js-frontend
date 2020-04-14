@@ -162,7 +162,7 @@ class App extends React.Component {
             <div>
 
               PeriodType:
-              <select onChange={this.handleChange}  name="periodType" >
+              <select onChange={this.handleChange}  style={{backgroundColor:'white', width:'100px', height:'50px', color:'#FF4000'}}name="periodType" >
                 <option value="days">Days</option>
                 <option value="weeks">Weeks</option>/option>
                 <option value="months">Months</option>
