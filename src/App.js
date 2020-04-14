@@ -168,7 +168,7 @@ class App extends React.Component {
                 <option value="months">Months</option>
               </select>
             </div>
-            <input name="data-go-estimate" style={{ marginLeft: '.5rem' }} type="submit" value="Submit" />
+            <input name="data-go-estimate" style={{borderRadius:'8px', width:'100px', height:'50px', color:'#FF4000', marginLeft: '.5rem' }} type="submit" value="Submit" />
           </form>
 
           <label>
